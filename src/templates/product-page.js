@@ -52,7 +52,7 @@ export default function ProductPage({ data }) {
           className="btn btn-green mt-4 snipcart-add-item"
           data-item-id={data.markdownRemark.frontmatter.id}
           data-item-price={data.markdownRemark.frontmatter.price}
-          data-item-url={data.markdownRemark.fields.slug}
+          data-item-url={'https://crunchybread.netlify.com/' + data.markdownRemark.fields.slug}
           data-item-name={data.markdownRemark.frontmatter.name}
           data-item-image={imgsrc}
         >
