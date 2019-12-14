@@ -8,7 +8,7 @@ const IndexPage = () => {
     <div className="pt-24">
 
 	<div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-		<!--Left Col-->
+	  {/*<!--Left Col-->*/}
 		<div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
 			<p className="uppercase tracking-loose w-full">Are you hungry and out of time? Crunchy Bread's got you
                   covered</p>
@@ -25,7 +25,7 @@ const IndexPage = () => {
                 </Link>
 			
 		</div>
-		<!--Right Col-->
+	  {/*<!--Right Col-->*/}
 		<div className="w-full md:w-3/5 py-6 text-center">
 			<img
                     src="https://res.cloudinary.com/samson-ludo/image/upload/v1576090197/crunchy-bread/undraw_Hamburger_8ge6_l8b7wg.svg"
