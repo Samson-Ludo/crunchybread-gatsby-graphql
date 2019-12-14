@@ -1,31 +1,26 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const divStyle = {
-  color: 'purple',
-  position: 'relative',
-  overflow: 'hidden'
-};
 
 const IndexPage = () => {
   return (
     <>
       
-      <div className="container bg-lavender overflow-hidden mx-auto flex flex-col md:flex-row items-center my-5 md:my-5" style={divStyle}>
+      <div className="container bg-lavender overflow-hidden mx-auto flex flex-col md:flex-row items-center my-auto md:my-auto" >
         {/* <!--Left Col--> */}
-        <div className="flex flex-col w-full lg:w-1/2 justify-center items-start pt-0 pb3 px-6">
+        <div className="flex flex-col w-full lg:w-1/2 justify-center items-start pt-auto pb3 px-6">
           <p className="uppercase tracking-loose">
             Your number 1 online store for luscious crunchy delicacies
           </p>
           <h1 className="font-bold text-3xl my-4">Crunchy Bread</h1>
-          <p className="leading-normal mb-2">
+          <p className="leading-normal ">
             Are you hungry and out of time? Are you in search of the quickest way to get food without moving through the 
     hassle of the traffic in your city? Not to worry. Crunchy Bread's got you covered!
     Order any luscious crunchy delicacy from the comfort of your home and have it delivered to you in no time. 
     So what are you waiting for?
           </p>
           <Link to="/products">
-            <button className="bg-transparent hover:bg-purple-900 text-gray-900 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-gray-900 hover:border-transparent">
+            <button className="bg-transparent hover:bg-purple-900 text-gray-900 hover:text-white rounded shadow hover:shadow-lg py-auto px-4 border border-gray-900 hover:border-transparent">
               Let's Get Crunchy!
             </button>
           </Link>
