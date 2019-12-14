@@ -19,7 +19,7 @@ const IndexPage = () => {
 
 			
             <Link to="/products">
-                  <button className="bg-transparent hover:bg-purple-900 text-gray-900 hover:text-white rounded shadow hover:shadow-lg py-auto px-4 border border-gray-900 hover:border-transparent">
+                  <button className="bg-transparent hover:bg-purple-900 text-gray-900 hover:text-white rounded shadow hover:shadow-lg mt-3 py-2 px-4 border border-gray-900 hover:border-transparent">
                     Let's Get Crunchy!
                   </button>
                 </Link>
