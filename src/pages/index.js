@@ -1,11 +1,18 @@
 import React from "react"
 import { Link } from "gatsby"
 
+const divStyle = {
+  color: 'purple',
+  height: '100vh',
+  position: 'relative',
+  overflow: 'hidden'
+};
+
 const IndexPage = () => {
   return (
     <>
       
-      <div className="container bg-lavender overflow-hidden mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
+      <div className="container bg-lavender overflow-hidden mx-auto flex flex-col md:flex-row items-center my-12 md:my-24" style={divStyle}>
         {/* <!--Left Col--> */}
         <div className="flex flex-col w-full lg:w-1/2 justify-center items-start pt-5 pb-24 px-6">
           <p className="uppercase tracking-loose">
