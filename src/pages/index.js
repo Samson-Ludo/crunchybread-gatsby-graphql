@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 
 const divStyle = {
   color: 'purple',
-  height: '100vh',
   position: 'relative',
   overflow: 'hidden'
 };
@@ -12,14 +11,14 @@ const IndexPage = () => {
   return (
     <>
       
-      <div className="container bg-lavender overflow-hidden mx-auto flex flex-col md:flex-row items-center my-12 md:my-24" style={divStyle}>
+      <div className="container bg-lavender overflow-hidden mx-auto flex flex-col md:flex-row items-center my-5 md:my-5" style={divStyle}>
         {/* <!--Left Col--> */}
-        <div className="flex flex-col w-full lg:w-1/2 justify-center items-start pt-5 pb-24 px-6">
+        <div className="flex flex-col w-full lg:w-1/2 justify-center items-start pt-0 pb3 px-6">
           <p className="uppercase tracking-loose">
             Your number 1 online store for luscious crunchy delicacies
           </p>
           <h1 className="font-bold text-3xl my-4">Crunchy Bread</h1>
-          <p className="leading-normal mb-4">
+          <p className="leading-normal mb-2">
             Are you hungry and out of time? Are you in search of the quickest way to get food without moving through the 
     hassle of the traffic in your city? Not to worry. Crunchy Bread's got you covered!
     Order any luscious crunchy delicacy from the comfort of your home and have it delivered to you in no time. 
@@ -32,7 +31,7 @@ const IndexPage = () => {
           </Link>
         </div>
         {/* <!--Right Col--> */}
-        <div className="w-full lg:w-1/2 lg:py-6 text-center">
+        <div className="w-full lg:w-1/2 lg:py-1 text-center">
           {/* <!--Add your product image here--> */}
           {/* <svg
             className="fill-current text-gray-900 w-3/5 mx-auto"
