@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,400&display=swap');
+
+#home-page {
+  font-family: 'Poppins', sans-serif;
+}
+
 .product-list {
   display: grid;
   grid-gap: theme("spacing.20");
+  font-family: 'Poppins', sans-serif;
 }
 
 @screen sm {
