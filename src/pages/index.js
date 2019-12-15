@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 const IndexPage = () => {
   return (
     <>
-    <div className="pt-24">
+    <div className="pt-24" id="home-page">
 
 	<div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
 	  {/*<!--Left Col-->*/}
