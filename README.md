@@ -1,8 +1,8 @@
 # Crunchy Bread
 
 
-This is and e-commerce web app built with Gatsby, an ecosystem of React, GRAPHQL and Node js.
-I also used Cloudinary API and SnipCart ALL.
+This is and e-commerce web app built with Gatsby, an ecosystem of React, GraphQL and Node js.
+I also used Cloudinary API and SnipCart API.
 
 
 
